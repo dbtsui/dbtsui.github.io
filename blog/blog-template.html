@@ -2,40 +2,50 @@
 <html>
 
 	<head>
-		<title>
-			Doug's Blog
-		</title>
+		<title>Doug's Blog</title>
+
+		<link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
+		<link rel="stylesheet" type="text/css" href="../stylesheets/blog.css">
 	</head>
 
 	<body>
-		<h1> Doug's Blog </h1>
+		<div id="banner">
+                  <h1>Welcome to Doug's Tsui Blog</h1>
+        </div>
+        <!-- Used for my header band-->
 
-		<h3> Blog N </h3>
-		<!-- N will be the Blog Number you're on -->
-			<p>
+		<aside id="sidebar">
+			<ul>  <!-- Start an Unordered List to link out rest of the blog -->
+				<li> 
+					<a href="#">Blog Post 1</a> 
+				</li>
+
+				<li> 
+					<a href="#"> Blog Post 2</a> 
+				</li>
+			
+				<li> 
+					<a href="#"> Blog Post 3</a> 
+				</li>
+				<!-- Have a list up to N Blog posts -->
+			</ul>
+
+		</aside>
+
+		<section id="centralarea">
+
+			<h3> Blog N </h3>
+			<!-- N will be the Blog Number you're on -->
+				<p>
 				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-			<!-- The content of the blog post will go here -->
-			</p>
-
-			<ul>  <!-- Start an Unordered List to link out rest of the blog -->
-				<li> 
-					<a href="#"></a> 
-				</li>
-
-				<li> 
-					<a href="#"></a> 
-				</li>
-			
-				<li> 
-					<a href="#"></a> 
-				</li>
-				<!-- Have a list up to N Blog posts -->
-			</ul>
+				<!-- The content of the blog post will go here -->
+				</p>
+		</section>		
 
 		<footer>
 			<a href="#"> Back to Home Page </a>

@@ -1,0 +1,79 @@
+/* Will use this to make headband for website*/
+#banner {
+	border: 1px solid black;
+	border-radius:1em;
+	/*Used to give rounded edges*/
+
+	background-color: #FF8C00;
+	/*DarkOrange*/
+
+	position:static;
+	width:100%;
+	height:5em;
+
+	text-align:center;
+}
+
+#sidebar {
+	border: 1px solid black;
+	border-radius:1em;
+
+	background-color:#FF6347;
+	/*Tomato*/
+
+	position: static;
+	width:8em;
+	height:100%;
+}
+
+#centralarea{
+	border: 1px solid black;
+	border-radius:1em;
+
+	background-color:#FCF2B4;
+	/*Peach*/
+
+	position: absolute;
+	top:6em;
+	left:9em;
+
+	width: 80%;
+	height:100%;
+
+	text-align:center;
+}
+
+/* Can't get footer to work
+
+#bottombanner {
+	border: 1px solid black;
+	border-radius:1em;
+	
+	/*Used to give rounded edges
+
+	background-color: #FF3E26;
+	/*Light Red
+
+	position:absolute;
+	width:100%;
+	height:2em;
+	top:45em;
+	bottom:0em;
+
+	text-align:center;
+}
+*/
+
+ul {
+	list-style-type:none;
+	/*Removes bullets in an unordered list*/
+}
+
+img {
+    max-width:450px;
+    max-height:450px;
+    width: auto;
+    height: auto;
+
+    /*Resizes my image to fit in box, Googled the code for this*/
+}
