@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>Doug's Blog</title>
+
+		<link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
+		<link rel="stylesheet" type="text/css" href="../stylesheets/blog.css">
+	</head>
+
+	<body>
+		<div id="banner">
+                  <h1>Welcome to Doug's Tsui Blog</h1>
+        </div>
+        <!-- Used for my header band-->
+
+		<aside id="sidebar">
+			<ul>  <!-- Start an Unordered List to link out rest of the blog -->
+				<li> 
+					<a href="#">Blog Post 1</a> 
+				</li>
+
+				<li> 
+					<a href="#"> Blog Post 2</a> 
+				</li>
+			
+				<li> 
+					<a href="#"> Blog Post 3</a> 
+				</li>
+				<!-- Have a list up to N Blog posts -->
+			</ul>
+
+		</aside>
+
+		<section id="centralarea">
+
+			<h3> Blog 4 </h3>
+			<!-- N will be the Blog Number you're on -->
+				<p>
+				For this blog post, I would like to talk about the Enumerable#map method. Map is
+				is really powerful method for Ruby that because you are able to take an array,
+				make a transformation of it, and always get the same size array in return. This is
+				really useful if say you want to take an array and do something to each element in the
+				array. 
+				</p>
+
+				<p>
+				For instance, say you want to capitalize each name in Array. This would be 
+				useful for documentation purposes. You could use a code like this.
+
+				<br>
+				names["doug", "mango", "m2k", "ken"]
+				<br>
+				["doug", "mango", "m2k", "ken"]
+				<br>
+
+				names.map {|name|name.captitalize}
+				<br>
+				["Doug", "Mango", "M2k", "Ken"]
+				<br>
+				</p>
+
+				<p>
+				The main thing to keep in mind with map, is that the return value will always
+				return an array. As pointed out in the Well-Grounded Rubyist, this distinction 
+				separates map from "each" as "each" will always return its receiver. So you
+				have to think carefully about which method you want to use. That about
+				sums up this blog post.
+				</p>
+				<!-- The content of the blog post will go here -->
+				</p>
+		</section>		
+
+		<footer>
+			<a href="#"> Back to Home Page </a>
+		</footer>
+
+	</body>
+
+</html>
